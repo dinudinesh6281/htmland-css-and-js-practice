@@ -1,0 +1,26 @@
+h1    
+{
+    color: red;
+}
+#one
+{
+    color: green;
+}
+.one
+{
+    color: yellow;
+}
+h1:hover
+{
+    cursor: pointer;
+    color: black;
+    border: 2px solid green;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: aqua;
+}
+p::selection
+{
+    background-color: yellow;
+    color: red;
+}
